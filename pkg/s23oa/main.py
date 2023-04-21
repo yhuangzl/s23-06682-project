@@ -15,8 +15,8 @@ def main(form, query):
 
     work = Works(query[0])
     if form == "ris":
-        work.ris
+        print(work.ris)
     elif form == "bibtex":
-        work.bibtex
+        print(work.bibtex)
     else:
         print("format error")

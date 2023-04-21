@@ -65,7 +65,6 @@ class Works:
         # {ris64}" download="ris">Download RIS</a>'
 
         # display(HTML(uri))
-        print(ris)
         return ris
 
     @property
@@ -109,5 +108,4 @@ class Works:
 
         bibtex_str = bibtexparser.dumps(database)
 
-        print(bibtex_str)
         return bibtex_str
