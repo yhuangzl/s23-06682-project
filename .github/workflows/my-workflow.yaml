@@ -8,5 +8,5 @@ jobs:
     steps:      
       - uses: actions/checkout@v3
       - run: |
-          pip install requests pytest
+          pip install bibtexparser requests pytest
           pytest .
